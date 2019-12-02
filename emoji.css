@@ -1,0 +1,131 @@
+body{
+    font-family: "intercom-font", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url(https://js.intercomcdn.com/images/background-1.1829ebd9.png);
+  background-size: 417px 417px;
+  background-repeat: repeat;
+}
+#test-emoji{
+position: absolute;
+text-align:center;
+font-size: 2rem;
+left: 5%;
+width: 90%;
+top: 20%;
+background-color: #fff;
+border:1px solid #ddd;
+border-radius: 5px;
+}
+
+.intercom-composer-popover {
+  z-index: 2147483003;
+  position: absolute;
+  bottom: 50px;
+  right: calc(50% - 165px);
+  box-shadow: 0 1px 15px 1px rgba(0,0,0,.08);
+  background-color: #fff;
+  border-radius: 6px;
+  transition-duration: 200ms;
+  transition-delay: 0ms;
+  transform-style: flat;
+  transform-origin: 50% 50% 0;
+  opacity: 0;
+  transition: all 0.2s linear;
+  visibility: hidden;
+}
+.intercom-composer-popover.active{
+visibility: visible;
+opacity:1;
+bottom: 70px;
+}
+.intercom-emoji-picker {
+  width: 330px;
+  height: 260px;
+}
+.intercom-composer-popover-header {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  height: 40px;
+  border-bottom: 1px solid #edeff1;
+}
+.intercom-composer-popover-input {
+     background-image: url(https://js.intercomcdn.com/images/search@2x.9f02b9f3.png);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 0 12px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6e7a89;
+  padding-left: 25px;
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+ 
+  border:none;
+  outline: none;
+}
+.intercom-composer-popover-body {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  padding: 0 20px;
+  overflow-y: scroll;
+}
+.intercom-emoji-picker-group {
+  margin: 10px -5px;
+}
+.intercom-emoji-picker-group {
+  margin: 10px -5px;
+}
+.intercom-emoji-picker-group-title {
+  color: #b8c3ca;
+  font-weight: 400;
+  font-size: 13px;
+  margin: 5px;
+}
+.intercom-emoji-picker-emoji {
+  padding: 5px;
+  width: 30px;
+  line-height: 30px;
+  display: inline-table;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 28px;
+  transition: -webkit-transform 60ms ease-out;
+  transition: transform 60ms ease-out;
+  transition: transform 60ms ease-out,-webkit-transform 60ms ease-out;
+  transition-delay: 60ms;
+  font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+}
+.intercom-emoji-picker-emoji:hover {
+  transition-delay: 0ms;
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.intercom-composer-popover-caret {
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #fff;
+  left:20px;
+}
+
+.chat-input-tool{
+background-color: #32A8E6;
+padding: 10px;
+border:none;  
+border-radius: 5px;
+position: absolute;
+bottom:20px;
+left: 50%;
+outline:none;
+}
